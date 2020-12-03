@@ -2,6 +2,8 @@ This folder includes:
 + Source code of our algorithms: Alg0 (RandGr, Greedy, ThresGr, Sep), Alg1 and AlgR + Disjoint.
 + Facebook dataset (in "data" folder) for testing the algorithms. Due to size limit, we cannot include Movie dataset. In order to run movie recommendation, please download dataset at https://grouplens.org/datasets/movielens/20m/; unzip the ml-20m.zip file and put movies.csv and ratings.csv to "data" folder.
 
+Our code uses OpenMP for parallelization (https://en.wikipedia.org/wiki/OpenMP) for better performance.
+
 To build our code, run:
 
 ```
